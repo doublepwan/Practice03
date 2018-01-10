@@ -3,7 +3,7 @@ package com.javaex.problem01;
 public class Member {
 	private String name;
 	private int point;
- 
+  
 	public Member() {
 	}
 
