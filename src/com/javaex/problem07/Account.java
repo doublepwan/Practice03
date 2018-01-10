@@ -4,6 +4,28 @@ public class Account {
 
     private String accountNo;
     private int balance;
+	
+    
+
+	public Account() {
+	}
+
+	public Account(String accountNo) {
+		this.accountNo = accountNo;
+	}
+
+	public void deposit(int money) {
+		balance+=money;
+	}
+
+	public void withdraw(int money) {
+		balance-=money;
+	}
+
+	public void showBalance() {
+		System.out.println("잔고액> "+balance);
+		
+	}
     
     //생성자 작성
     
